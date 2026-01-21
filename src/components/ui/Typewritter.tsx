@@ -1,11 +1,10 @@
-import React from 'react'
 
 import Typewriter from 'typewriter-effect';
 
 function TypewritterComponent() {
   
     return (
-    <div style={{ fontSize: '4em', fontWeight: 'bold' }}>
+    <div className="max-sm:text-xl max-md:hidden" style={{ fontSize: '4em', fontWeight: 'bold' }}>
       <Typewriter
         onInit={(typewriter) => {
           typewriter.typeString('Hi , I am Gursimran')
