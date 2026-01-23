@@ -8,7 +8,7 @@ function Hero() {
   return (
     <div className="w-full min-h-screen px-6 sm:px-40 py-10 flex flex-col sm:flex-row">
       {/* description */}
-      <div className="sm:w-1/2 w-full flex justify-center items-center flex-col py-17 px-4 sm:px-10 h-full">
+      <div className="sm:w-1/2 w-full flex max-sm:justify-center max-sm:items-center flex-col py-17 px-4 sm:px-10 h-full">
         <div className="hidden sm:block">
           <TypewritterComponent />
         </div>
@@ -26,7 +26,7 @@ function Hero() {
       </div>
 
       {/* image */}
-      <div className="sm:w-1/2 w-full px-10 sm:px-24  py-10 sm:py-16 h-full">
+      <div className="md:w-1/2 w-full px-10 md:px-24  py-10 md:py-16 h-full">
         <Image
           src="/image.png"
           className="border-5 border-white rounded-3xl"

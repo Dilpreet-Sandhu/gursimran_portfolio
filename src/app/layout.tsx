@@ -14,13 +14,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Niloy Bhowmick – Video Editor & Motion Graphics Designer",
-    template: "%s | Niloy Bhowmick",
+    default: "Gursimran Brar – Video Editor & Motion Graphics Designer",
+    template: "%s | Gursimran Brar",
   },
   description:
     "Turning raw footage into visual stories — with style, precision, and a touch of cinematic magic. Niloy Bhowmick specializes in DaVinci Resolve, Premiere Pro, and After Effects — delivering cinematic edits, motion graphics, and polished storytelling.",
   keywords: [
-    "Niloy Bhowmick",
+    "Gursimran Brar",
     "Video Editor",
     "Motion Graphics Designer",
     "DaVinci Resolve",
@@ -38,9 +38,7 @@ export const metadata: Metadata = {
     "Lower Thirds",
     "Audio Sync",
   ],
-  authors: [{ name: "Niloy Bhowmick", url: "https://www.itsniloy.me" }],
-  creator: "Niloy Bhowmick",
-  publisher: "Niloy Bhowmick",
+  authors: [{ name: "Gursimran Brar", url: "https://gursimran-portfolio-six.vercel.app/" }],
   robots: {
     index: true,
     follow: true,
@@ -55,33 +53,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.itsniloy.me",
-    title: "Niloy Bhowmick – Video Editor & Motion Graphics Designer",
+    url: "https://gursimran-portfolio-six.vercel.app/",
+    title: "Gursimran Brar – Video Editor & Motion Graphics Designer",
     description:
       "Passionate Video Editor and Motion Graphics Designer delivering clean, cinematic edits and dynamic visual storytelling using DaVinci Resolve, Premiere Pro, and After Effects.",
-    siteName: "Niloy Bhowmick Portfolio",
+    siteName: "Gursimran Brar Portfolio",
     images: [
       {
-        url: "/niloybhowmick.png",
+        url: "/image.png",
         width: 1200,
         height: 630,
-        alt: "Niloy Bhowmick - Video Editor",
+        alt: "Gursimran Brar - Video Editor",
       },
     ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Niloy Bhowmick – Video Editor & Motion Graphics Designer",
-    description:
-      "Crafting cinematic edits, motion graphics, and powerful stories. Let's make your content stand out.",
-    creator: "@niloy_bhowmick", // update if you have a real Twitter handle
-    images: ["/niloybhowmick.png"],
   },
   verification: {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://www.itsniloy.me",
+    canonical: "https://gursimran-portfolio-six.vercel.app/",
   },
   category: "Video Editing",
 };
@@ -103,15 +93,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Niloy Bhowmick",
-              url: "https://www.itsniloy.me",
-              image: "/niloybhowmick.png",
-              sameAs: [
-                "https://www.itsniloy.me",
-                "https://linkedin.com/in/niloybhowmick", // update if available
-                "https://youtube.com/@niloybhowmick", // update if available
-                "https://twitter.com/niloy_bhowmick", // update if available
-              ],
+              name: "Gursimran Brar",
+              url: "https://gursimran-portfolio-six.vercel.app/",
+              image: "/image.png",
               jobTitle: "Video Editor & Motion Graphics Designer",
               knowsAbout: [
                 "Video Editing",
@@ -125,10 +109,6 @@ export default function RootLayout({
               worksFor: {
                 "@type": "Organization",
                 name: "Freelance",
-              },
-              alumniOf: {
-                "@type": "Organization",
-                name: "Green University of Bangladesh",
               },
             }),
           }}
